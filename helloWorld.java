@@ -19,4 +19,9 @@ public class suma
          e.printStackTrace();
       }
    }
+   
+   public static float multiplicacion(int a, int b){
+		return a*b;
+   }
+
 }
