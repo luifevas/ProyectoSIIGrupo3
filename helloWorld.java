@@ -14,12 +14,14 @@ public class suma
          int suma=s1+s2;
          System.out.println ("La suma es " + s1 + "+" + s2 +"="+ suma);
 	 resta();
+	 multiplicacion(s1,s2);
       }
       catch (Exception e)
       {
          e.printStackTrace();
       }
    }
+
    public void resta(){
        System.out.print("Primer numero: ");
        int n1 = Integer.parseInt(br.readLine());
@@ -28,4 +30,10 @@ public class suma
        int resta = n1 - n2; 
        System.out.println("La resta " + n1 + " - " + n2 + " = " + resta);
    }
+
+   
+   public static float multiplicacion(int a, int b){
+		return a*b;
+   }
+
 }
